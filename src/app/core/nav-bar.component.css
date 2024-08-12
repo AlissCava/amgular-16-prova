@@ -1,0 +1,29 @@
+button {
+    background-color: #f1ae3b; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c5500; /* Verde più scuro */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+    /* debug */
+    width: 70%;
+    background-color: rgb(255, 255, 203);
+    border: 2px solid black;
+}
