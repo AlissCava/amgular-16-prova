@@ -1,0 +1,90 @@
+
+#footUP{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* debug */
+    height: 300px;
+    background-color: rgb(29, 29, 29);
+}
+
+#h1foot{
+    width: 70%;
+    font-size: 2rem;
+    color: rgb(157, 150, 195);
+}
+
+#lingua{
+    color: white;
+}
+
+#icon{
+    color: white;
+}
+
+#red{
+    height: 30px;
+    width: 20%;
+    /* background-color:lightcoral;
+    border: 2px solid black; */
+}
+
+.greencolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    width: 10%;
+    /* background-color:rgb(182, 255, 220);
+    border: 2px solid white; */
+}
+
+.primo{
+    font-size: 2rem;
+    color: rgb(157, 150, 195);
+}
+
+.column p{
+    color: white;
+    margin: 10px;
+}
+
+#footDOWN{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    /* debug */
+    min-height:80px;
+    background-color: rgb(29, 29, 29);
+}
+
+#cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    width: 60%;
+    height: 109px;
+    /* background-color: aquamarine;
+    border: 2px solid black; */ 
+}
+
+.fo{
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(157, 150, 195);
+    border: 10px solid rgb(157, 150, 195);
+    border-radius: 20px;
+    margin-right: 40px;
+    
+    /* background-color: rgb(254, 182, 182);
+    border: 2px solid black; */
+}
+
+

@@ -5,6 +5,7 @@ import { Demo1Component } from "./featured/demo1.component";
 import { Demo2Component } from "./featured/demo2.component";
 import { Demo3Component } from "./featured/demo3.component";
 import { NavBarComponent } from "./core/nav-bar.component";
+import { FooterComponent } from "./core/footer.component";
 
 
 @Component({
@@ -14,21 +15,18 @@ import { NavBarComponent } from "./core/nav-bar.component";
     CommonModule,
     RouterOutlet,
     RouterLink,
-    NavBarComponent
+    NavBarComponent,
+    FooterComponent
 ],
 
 
   template: `
     <app-nav-bar/>
     <!--The content below is only a placeholder and can be replaced.-->
-    <h1>
-      Welcome to {{title}}!
-    </h1>
-    
-   
 
-   
     <router-outlet></router-outlet>
+
+    <app-footer/>
   `,
   styleUrls: ['./app.component.css']
 })
