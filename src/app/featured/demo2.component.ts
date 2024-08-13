@@ -35,24 +35,7 @@ import { CommonModule } from '@angular/common';
             </div>
         </main>
 
-        <footer>
-            <!-- sopra due spazi incolonnati, uno rosso piu piccolo e uno verde piu grande diviso a sua volta in 4 colonne, e sotto un div con logo a sinistra e un bottone a destra-->
-
-            <div id="footUP">
-                <div id="red"></div>
-
-                <div class="greencolumn"></div>
-                <div class="greencolumn"></div><div class="greencolumn"></div><div class="greencolumn"></div>
-            </div>
-            <hr>
-            <div id="footDOWN">
-                <div id="cont">
-                    <span class="fo">logo</span>
-                    <span class="fo">bottone</span>
-                </div>
-               
-            </div>
-        </footer>
+       
   `,
   styleUrls: ['./demo2.component.css']
 })

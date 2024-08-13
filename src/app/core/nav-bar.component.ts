@@ -22,7 +22,9 @@ import { RouterLink } from '@angular/router';
                        <button routerLink="demo3">PAGE 3</button>
                     </span>
                     <span>
-                        <button class="link" href="https://hammerandchisel.zendesk.com/auth/v2/login/signin?return_to=https%3A%2F%2Fsupport.discord.com%2Fhc%2Fit&theme=hc&locale=it&brand_id=96508&auth_origin=96508%2Ctrue%2Ctrue">Login</button>
+                       <a href="https://hammerandchisel.zendesk.com/auth/v2/login/signin?return_to=https%3A%2F%2Fsupport.discord.com%2Fhc%2Fit&theme=hc&locale=it&brand_id=96508&auth_origin=96508%2Ctrue%2Ctrue">
+                       <button class="link" href="">Login</button>
+                       </a> 
                     </span>
                 </nav>
             </div>
